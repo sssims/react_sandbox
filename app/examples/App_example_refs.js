@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom';
 class App extends React.Component {
   constructor(){
     super();
-    //this.state = { txt: 'this is the state text'}
     this.state = {
       red: 0,
       green: 0,
@@ -12,11 +11,7 @@ class App extends React.Component {
     }
     this.update = this.update.bind(this)
   }
-  /*
-  update(e){
-    this.setState({txt: e.target.value})
-  }
-  */
+
   update(e){
     this.setState({
       red: ReactDOM.findDOMNode(this.refs.red.refs.inp).value,

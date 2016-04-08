@@ -1,0 +1,5 @@
+INSTRUCTIONS
+
+1. To start a local server run 'npm start'. The server runs on port 3333.
+ 
+2. To use any of the examples you must copy the App_example_* and its matching main_example_* to the app/ directory, and rename them App.js and main.js respectively. 
